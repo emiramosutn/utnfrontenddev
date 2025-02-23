@@ -1,0 +1,102 @@
+p{
+    color: #185ed2;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+h2{
+    color: bisque;
+    background-color: #185ed2;
+    text-align: center;
+    font-size: 50px;
+}
+
+h1{
+    color: black;
+    background-color: #57bd95;
+    text-align: center;
+    font-size: 70px;
+}
+
+.caja01{
+    width: 600px;
+    height: 150px;
+    background-color: #185ed2;
+    border-radius: 22px 22px 22px 22px;
+    box-shadow: 10px 10px 20px -11px rgba(72,71,71,0.93);
+    -webkit-box-shadow: 10px 10px 20px -11px rgba(72,71,71,0.93);
+    -moz-box-shadow: 10px 10px 20px -11px rgba(72,71,71,0.93);
+}
+
+.destacado{
+    color: #57bd95;
+    font-style: italic;
+}
+
+#caja02{
+    width: 600px;
+    height: 150px;
+    background-color: #d218c9;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 10px 10px 20px -11px rgba(72,71,71,0.93);
+    -webkit-box-shadow: 10px 10px 20px -11px rgba(72,71,71,0.93);
+    -moz-box-shadow: 10px 10px 20px -11px rgba(72,71,71,0.93);
+}
+
+.destacado02{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contenedor{
+    border: 1px solid #57bd95;
+    background-color: #444444;
+    display: inline-flex;
+    justify-content: center;    
+}
+
+#boton01{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    font-size: 25px;
+    font-family: helvetica;
+    background-color: rgb(41, 98, 206);
+    align-content: center;
+    border-radius: 10px;
+}
+
+#boton02{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    font-size: 25px;
+    font-family: helvetica;
+    background-color: rgb(192, 41, 206);
+    align-content: center;
+    border-radius: 10px;
+}
+
+#boton03{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    font-size: 25px;
+    font-family: helvetica;
+    background-color: rgb(207, 172, 125);
+    align-content: center;
+    border-radius: 10px;
+}
+
+#boton04{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    font-size: 25px;
+    font-family: helvetica;
+    background-color: rgb(41, 206, 198);
+    align-content: center;
+    border-radius: 10px;
+}

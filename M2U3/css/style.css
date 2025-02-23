@@ -1,0 +1,115 @@
+/* Fuentes */
+/* font-family: "Manrope", sans-serif; */
+/* font-family: "Bebas Neue", sans-serif; */
+
+
+/* Barra de Navegacion */
+.navbar {
+  padding: 0.3rem;
+  background-color: #ffffff;
+
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+
+/* Estilos Generales */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+}
+
+.seccion-oscura {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
+.seccion-titulo {
+  font-size: 3rem;
+  padding: 15px 0;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.seccion-descripcion {
+  font-size: 1.4rem;
+  color: #b1bfd1;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
+
+
+
+
+/* Seccion Hero */
+.hero-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.hero {
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+
+}
+
+.hero-inferior{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.hero-img-desarrollador {
+  width: 100;
+  height: 100;
+  border-radius: 80%;
+  margin: 100px;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* Sobre mi */
+.sobre-mi {
+  height: 500px;
+  padding: 10px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 800px;
+  text-align: center;
+}
+
