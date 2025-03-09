@@ -512,6 +512,9 @@ footer {
   color: red;
 }
 
+
+/* novedades */
+
 .novedades {
 padding-top: 50px;
 }
@@ -519,6 +522,7 @@ padding-top: 50px;
 .titulos-novedades {
   padding-top: 120px;
   text-align: center;
+
 }
 
 .subtitulo-novedades {
@@ -528,7 +532,7 @@ padding-top: 50px;
 }
 
 .lista-novedades {
-  text-align: center;
+  text-align: left;
   font-size: 2rem;
   color: #14146d;
   padding: 60px 0 10px 0;
@@ -539,8 +543,9 @@ padding-top: 50px;
 }
 
 .modal-lista {
+  width: 100%;
   padding: 30px 150px 30px 150px;
-  color: #446692;
+  color: #749bce;
 }
 
 .seccion-agregar-novedad {
@@ -548,6 +553,12 @@ padding-top: 50px;
   padding: 30px;
   border-radius: 15px;
 
+}
+
+.seccion-modificar-novedad {
+  margin: 150px;
+  padding: 30px;
+  border-radius: 15px;
 }
 
 .sin-puntos {
