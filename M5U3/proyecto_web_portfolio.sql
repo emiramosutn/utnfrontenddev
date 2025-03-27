@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 09-03-2025 a las 17:48:32
+-- Tiempo de generación: 27-03-2025 a las 12:45:18
 -- Versión del servidor: 9.1.0
 -- Versión de PHP: 8.3.14
 
@@ -33,18 +33,19 @@ CREATE TABLE IF NOT EXISTS `novedades` (
   `titulo` varchar(250) NOT NULL,
   `subtitulo` text NOT NULL,
   `cuerpo` text NOT NULL,
+  `img_id` varchar(250) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Volcado de datos para la tabla `novedades`
 --
 
-INSERT INTO `novedades` (`id`, `titulo`, `subtitulo`, `cuerpo`) VALUES
-(10, 'El celular desaparecerá?', 'La predicción de Gates, Musk y Mark Zuckerberg.', 'Aunque los teléfonos móviles han sido el epicentro de la revolución tecnológica de las últimas dos décadas, algunas de las mentes más influyentes del sector tecnológico, como Bill Gates, Elon Musk y Mark Zuckerberg, aseguran que su dominio tiene los días contados. TEST'),
-(8, 'Empieza una nueva era en la fabricación de chips', 'Intel ha producido 30.000 obleas en sus equipos UVE High-NA', 'Joseph Bonetti es uno de los ingenieros de Intel que defienden que esta compañía está a punto de volver a ser competitiva en la industria de la fabricación de semiconductores. Esta declaración suya de hace unos pocos días expresa muy bien su visión: \"Líderes de Intel, junta directiva de Intel y Administración de Donald Trump, por favor, no vendan ni cedan el control de Intel Foundry a TSMC justo cuando Intel está tomando la delantera tecnológica y empezando a despegar. Sería un error terrible y desmoralizante\".'),
-(2, 'Alineación de 7 planetas', 'El fenómeno astronómico que no se repetirá hasta dentro de 467 años', 'Durante el atardecer y las primeras horas de la noche, los siete planetas principales del Sistema Solar —Saturno, Mercurio, Neptuno, Venus, Urano, Júpiter y Marte— se alinearán en una configuración única y rara, visible sin la necesidad de equipos telescópicos en su mayoría.'),
-(6, 'Una cámara que identifica caras a 100 kilómetros', 'Un nuevo sistema de observación', 'La información proviene de South China Morning Post, que detalla cómo un equipo del Instituto de Investigación de Información Aeroespacial de la Academia China de Ciencias ha logrado observaciones exitosas con un innovador sistema láser. Este opera en longitudes de onda ópticas y ayuda a obtener imágenes a distancia enormes, si se cumplen ciertas condiciones.');
+INSERT INTO `novedades` (`id`, `titulo`, `subtitulo`, `cuerpo`, `img_id`) VALUES
+(10, 'El celular desaparecerá?', 'La predicción de Gates, Musk y Mark Zuckerberg.', 'Aunque los teléfonos móviles han sido el epicentro de la revolución tecnológica de las últimas dos décadas, algunas de las mentes más influyentes del sector tecnológico, como Bill Gates, Elon Musk y Mark Zuckerberg, aseguran que su dominio tiene los días contados. TEST', 'sapogln66uuqeczohj7i'),
+(8, 'Empieza una nueva era en la fabricación de chips', 'Intel ha producido 30.000 obleas en sus equipos UVE High-NA', 'Joseph Bonetti es uno de los ingenieros de Intel que defienden que esta compañía está a punto de volver a ser competitiva en la industria de la fabricación de semiconductores. Esta declaración suya de hace unos pocos días expresa muy bien su visión: \"Líderes de Intel, junta directiva de Intel y Administración de Donald Trump, por favor, no vendan ni cedan el control de Intel Foundry a TSMC justo cuando Intel está tomando la delantera tecnológica y empezando a despegar. Sería un error terrible y desmoralizante\".', 'a3x3nn52vqhigh8apcxq'),
+(6, 'Una cámara que identifica caras a 100 kilómetros', 'Un nuevo sistema de observación', 'Científicos de China desarrollaron una innovadora cámara láser capaz de identificar detalles minúsculos, como rostros humanos, a distancias superiores a 100 kilómetros. Este avance representa un hito significativo en la tecnología de imágenes ópticas y tiene potenciales aplicaciones en diversos campos.', 'uopfwmvfzqitnd0q4czp'),
+(22, 'Prueba', 'Prueba', 'Esto es una prueba para la modificación de imágenes y texto de las novedades.', 'o3urt9neiowlibkgglvu');
 
 -- --------------------------------------------------------
 
